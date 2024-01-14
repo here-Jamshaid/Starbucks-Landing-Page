@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company - JdDeV</title>
+    <link rel="icon" href="Picture/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <div class="logo">
+                <img src="Picture/logo.png" style="width:60px">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Cofeee<br> It's <span class="span">Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sapiente autem quam porro ipsam, eveniet possimus, laboriosam, iusto eum molestias voluptatibus aperiam ipsum blanditiis. Obcaecati ratione accusantium dolor similique expeditz.
+                </p>
+
+                <a href="https://www.starbucks.com" id="button">Learn More</a>
+            </div>
+
+            <div class="imageBox">
+                <img src="Picture/img1.png" class="picture">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="Picture/img1.png" style="width:50px" onclick="imgslidder('Picture/img1.png');
+            changeclr('#017143')"    ></li>
+            <li><img src="Picture/img4.png" style="width:70px"
+            onclick="imgslidder('Picture/img4.png');
+            changeclr('rgb(133, 83, 47)')"></li>
+            <li><img src="Picture/img2.png" style="width:50px"
+                onclick="imgslidder('Picture/img2.png');
+                changeclr('#eb7495')"></li>
+        </ul>
+
+
+    </section>
+
+    <script src="script.js" ></script>
+
+    
+</body>
+</html>
